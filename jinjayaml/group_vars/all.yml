@@ -39,13 +39,13 @@ radius_servers:
 # HTTP Client source interface and VRF
 # CLI Syntax: ip http client local-interface <interface> vrf <vrfname>
 ip_http_client_source_interfaces:
-    - name: Management1
+    Management1
       vrf: MGMT
 
 # RADIUS source interface and VRF
 # CLI Syntax: ip radius vrf <vrfname> source-interface <interface>
 ip_radius_source_interfaces:
-  - name: Management1
+  Management1
     vrf: MGMT
     
 
@@ -77,13 +77,13 @@ ntp:
     name: Management1
     vrf: MGMT
   servers:
-    - name: 0.north-america.pool.ntp.org
+    0.north-america.pool.ntp.org
       vrf: MGMT
-    - name: 1.north-america.pool.ntp.org
+    1.north-america.pool.ntp.org
       vrf: MGMT
-    - name: 2.north-america.pool.ntp.org
+    2.north-america.pool.ntp.org
       vrf: MGMT
-    - name: time.google.com
+    time.google.com
       vrf: MGMT
 
 # Clock Timezone
